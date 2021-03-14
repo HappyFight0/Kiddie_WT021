@@ -10,10 +10,11 @@
   width: 50%;
   margin-top: 55px;
  font-size:1.75em;
- 
+ font-family: "Monaco", "Courier New", monospace;
+ font-weight: bold;
 
-}
-.pagination a:hover:not(.active) {background-color:  #f8d09c;
+ }
+.pagination a:hover:not(.active) {background-color:  #ffab3d;
 }
 body{
   background-color: #faebd7;
@@ -28,4 +29,12 @@ h1{
   font-size:3.75rem;
   margin-left: 43%;
   text-shadow: 2px 2px #ff0000;
+  font-family:"Lucida Handwriting",Cursive;
+  letter-spacing: 2px;
+  margin-top: -85px;
+}
+.book img{
+  margin-left:57%;
+  margin-top: 10px;
+
 }
