@@ -38,10 +38,11 @@
 }
 
 .button-getstarted{
-    width: 20rem;
+    width: 21rem;
     position: relative;
     top: -40rem;
     left: 20rem;
+
 }
 .button-getstarted a{
     padding: 2rem;
@@ -52,6 +53,8 @@
     background-color: cornflowerblue;
     color: black;
     box-shadow: 1rem 1rem 3rem .1rem grey;
+    font-family: "Monaco", "Courier New", monospace;
+
 }
 
 .button-getstarted a:hover{
