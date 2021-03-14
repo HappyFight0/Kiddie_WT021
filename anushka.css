@@ -1,0 +1,21 @@
+.pagination {
+    display: inline-block; 
+ }
+  
+  .pagination a {
+    color: rgb(26, 31, 34);
+    float: left;
+    padding: 8px 100px;
+    text-decoration: none;
+    width: 50%;
+    margin-top: 55px;
+   font-size:1.75em;
+   
+ 
+  }
+  .pagination a:hover:not(.active) {background-color:  #f8d09c;
+  }
+body{
+    background-color: #faebd7;
+
+}
