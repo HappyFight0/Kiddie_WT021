@@ -13,14 +13,14 @@
 }
 .flex-col{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     flex-direction: column;
 }
 
 .container{
     width: 140rem;
     margin: auto;
-    background-color: antiquewhite;
+    background-color: #faebd7;
 }
 
 .container .header{
@@ -76,12 +76,12 @@
     flex-wrap: wrap;
 }
 .containers{
-    border: .01rem solid grey;
     margin: 1rem 1.5rem;
     border-radius: 2rem;
-    box-shadow: 1rem 1rem 3rem .1rem gray;
+    box-shadow: 1rem 1rem 5rem .1rem gray;
     max-width: 40rem;
     min-width: 40rem;
+    min-height: 60rem;
     padding: 1rem;
 }
 
@@ -108,11 +108,17 @@
 .description-section{
     font-size: 4rem;
     padding: 1rem;
+    min-height: 30rem;
+    max-height: 30rem;
     color: black;
+    overflow: auto;
+    text-overflow: ellipsis;
+    margin-top: 1rem;
 }
+
 .explore-more{
-    display: inline;
-    float: right;
+    justify-content: flex-end;
+    align-items: flex-start;
     padding: 2rem;
 }
 .explore-more a{
@@ -130,4 +136,66 @@
 .horizon hr{
     width: 90%;
     font-weight: 100;
+}
+
+.about-us-container{
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    padding: 2rem;
+    height: 70rem;
+}
+
+.img-cont img{
+    max-width: 50rem;
+    height: 50rem;
+    min-width: 50rem;
+}
+.about-us-content{
+    max-width: 70rem;
+    height: 50rem;
+    font-size: 3rem;
+    min-width: 70rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 3rem;
+}
+.about-us-content h3{
+    opacity: 0.5;
+    font-size: 2.5rem;
+}
+.about-us-content h1{
+    opacity: 1;
+    font-weight: 300;
+    font-size: 4rem;
+}
+.about-us-content p{
+    font-weight: 100;
+    font-size: 3rem;
+}
+.vision-container{
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    padding: 2rem;
+    height: 70rem;
+}
+
+.vision-content{
+    max-width: 50rem;
+    height: 50rem;
+    padding: 3rem;
+    min-width: 50rem;
+}
+.vision-content h1{
+    font-weight: 300;
+    font-size: 4rem;
+}
+.vision-content p{
+    font-weight: 100;
+    font-size: 3rem;
+}
+
+.content-p{
+    overflow: auto;
 }
